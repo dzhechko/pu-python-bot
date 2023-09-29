@@ -35,4 +35,4 @@ PINECONE_ENVIRONMENT=" "
 PINECONE_INDEX_NAME=" "
 PINECONE_NAMESPACE=" "
 ```
-Если ваш тарифный план в pinecone не позволяет использовать namespaces, то задавать значение переменной PINECONE_NAMESPACE не нужно.
+Если ваш тарифный план в pinecone не позволяет использовать namespaces, то задавать значение переменной `PINECONE_NAMESPACE` не нужно.
