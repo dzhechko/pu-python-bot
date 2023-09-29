@@ -13,7 +13,7 @@ from langchain.vectorstores import Pinecone
 from langchain.memory import ConversationBufferMemory
 import pinecone
 from langchain.chains.question_answering import load_qa_chain
-from utils.prompts import CONDENSE_QUESTION_PROMPT, QA_PROMPT
+from prompts import CONDENSE_QUESTION_PROMPT, QA_PROMPT
 from langchain.chains import LLMChain
 from streamlit_chat import message
 
