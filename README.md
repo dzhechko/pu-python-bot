@@ -24,5 +24,5 @@ prompts.py - файл содержит 2 шаблона промптов:
       
 ## Запуск в Streamlit Community Cloud
 
-Вы можете развернуть это приложение через Streamlit Community Cloud, следуя следующим инструкциям[docs](https://docs.streamlit.io/streamlit-community-cloud/get-started)
+Вы можете развернуть это приложение через Streamlit Community Cloud, следуя следующим инструкциям [docs](https://docs.streamlit.io/streamlit-community-cloud/get-started)
 
