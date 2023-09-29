@@ -25,4 +25,10 @@ prompts.py - файл содержит 2 шаблона промптов:
 ## Запуск в Streamlit Community Cloud
 
 Вы можете развернуть это приложение через Streamlit Community Cloud, следуя следующим инструкциям [docs](https://docs.streamlit.io/streamlit-community-cloud/get-started)
+Перед запуском приложения в Streamlit Community Cloud в App Settings -> Secrets необходимо будет задать следующие системные переменные (внутри " " необходимо вписать ваши значения ключей)
+OPENAI_API_KEY=" "
+PINECONE_API_KEY=" "
+PINECONE_ENVIRONMENT=" "
+PINECONE_INDEX_NAME=" "
+PINECONE_NAMESPACE=" "
 
