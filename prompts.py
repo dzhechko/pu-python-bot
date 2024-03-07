@@ -12,7 +12,7 @@ CONDENSE_QUESTION_PROMPT=PromptTemplate.from_template(template)
 
 
 prompt_template = """You are a helpful AI assistant. Use the following pieces of context to answer the question at the end.
-If there is no answer in the context, just say ""Я не уверен, что могу дать точный ответ по имеющейся документации. Добавьте, пожалуйста, документов или попробуйте перефразировать вопрос."". DO NOT try to make up an answer.
+DO NOT try to make up an answer.
 If the question is not related to the context, politely respond that you are tuned to only answer questions that are related to the context. Respond in the language of the document.
 
 {context}
